@@ -2,9 +2,12 @@
 # @Author: Benjamin Held
 # @Date:   2017-04-04 19:57:11
 # @Last Modified by:   Benjamin Held
-# @Last Modified time: 2019-10-30 21:59:40
+# @Last Modified time: 2020-04-26 08:51:52
 
-source ../../libs/terminal_color.sh
+# setting -e to abort on error
+set -e
+
+. ../libs/terminal_color.sh
 
 # install cron package
 yay -S cronie
