@@ -3,7 +3,7 @@
 Useful scripts to adjust and extend the WRF services
 
 ## Feature Overview
-* will be here when issues are finished
+* migration scripts: see [readme](./migration/README.md)
 
 ## Usage
 see subsidiary readme file
