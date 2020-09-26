@@ -1,7 +1,10 @@
 # @Author: Benjamin Held
 # @Date:   2020-09-05 20:15:59
 # @Last Modified by:   Benjamin Held
-# @Last Modified time: 2020-09-25 19:41:36
+# @Last Modified time: 2020-09-26 22:16:03
+
+# Migration-Script (currently in testing) from one WRF version to another
+# The versions and folders need to be set manually at the moment
 
 # enable termination on error
 set -e
