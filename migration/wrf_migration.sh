@@ -1,7 +1,7 @@
 # @Author: Benjamin Held
 # @Date:   2020-09-05 20:15:59
 # @Last Modified by:   Benjamin Held
-# @Last Modified time: 2020-09-26 22:16:03
+# @Last Modified time: 2020-10-25 14:27:01
 
 # Migration-Script (currently in testing) from one WRF version to another
 # The versions and folders need to be set manually at the moment
@@ -13,6 +13,9 @@ set -e
 . ../libs/terminal_color.sh
 
 SCRIPT_PATH=$(pwd)
+
+# dependency required with WRF 4.2.0
+yay -S --noconfirm --needed libpciaccess libunwind
 
 # old folder names and new one
 # wrf_420; WRF_FOLDER='WRF-4.2'; WPS_FOLDER='WPS-4.2';;
