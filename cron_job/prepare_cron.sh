@@ -1,8 +1,4 @@
-#!/bin/sh
-# @Author: Benjamin Held
-# @Date:   2017-04-04 19:57:11
-# @Last Modified by:   Benjamin Held
-# @Last Modified time: 2021-01-16 18:49:13
+#!/bin/bash
 
 # setting -e to abort on error
 set -e

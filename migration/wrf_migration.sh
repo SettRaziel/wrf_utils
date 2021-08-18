@@ -1,7 +1,4 @@
-# @Author: Benjamin Held
-# @Date:   2020-09-05 20:15:59
-# @Last Modified by:   Benjamin Held
-# @Last Modified time: 2021-01-10 20:17:09
+#!/bin/bash
 
 # Migration-Script (currently in testing) from one WRF version to another
 # The versions and folders need to be set manually at the moment

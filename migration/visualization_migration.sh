@@ -1,8 +1,4 @@
-#!/bin/sh
-# @Author: Benjamin Held
-# @Date:   2020-07-12 19:02:44
-# @Last Modified by:   Benjamin Held
-# @Last Modified time: 2020-07-12 19:25:23
+#!/bin/bash
 
 # Migration-Script (currently in testing) from ncl output to the python based
 # wrf_visualization projekt; The script will consider the default paths and

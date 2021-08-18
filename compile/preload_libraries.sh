@@ -1,7 +1,4 @@
-# @Author: Benjamin Held
-# @Date:   2020-07-26 10:28:08
-# @Last Modified by:   Benjamin Held
-# @Last Modified time: 2020-07-26 10:40:25
+#!/bin/bash
 
 # simple script to download the required libraries for compiling a runnable wrf model
 
