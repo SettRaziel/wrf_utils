@@ -4,4 +4,4 @@
 sh ./visualization_migration.sh
 
 # migrate WRF version
-sh ./wrf_migration.sh
+sh ./wrf_migration_420.sh
