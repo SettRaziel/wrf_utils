@@ -7,7 +7,7 @@
 set -e
 
 # define terminal colors
-. ../libs/terminal_color.sh
+. ../../libs/terminal_color.sh
 
 SCRIPT_PATH=$(pwd)
 
