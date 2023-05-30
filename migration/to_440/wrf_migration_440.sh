@@ -14,7 +14,7 @@ SCRIPT_PATH=$(pwd)
 yay -S --noconfirm --needed libpciaccess libunwind
 
 # packages required with WRF 4.4.0
-yay -S --noconfirm --needed openmpi zlib libpng jasper
+yay -S --noconfirm --needed zlib libpng jasper
 
 # old folder names and new one
 FILE_NAME_OLD='wrf_420'; WRF_FOLDER_OLD='WRF-4.2'; WPS_FOLDER_OLD='WPS-4.2'
