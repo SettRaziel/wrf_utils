@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Migration-Script (currently in testing) from WRF version 4.2.0 to 4.4.0
+# Migration-Script from WRF version 4.2.0 to 4.4.0
 
 # enable termination on error
 set -e

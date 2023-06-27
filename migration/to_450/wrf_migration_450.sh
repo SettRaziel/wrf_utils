@@ -18,7 +18,7 @@ yay -S --noconfirm --needed zlib libpng jasper
 
 # no package changes for WRF 4.5.0
 
-# old folder names and new one; adjust if required
+# old folder names and new one; adjust to WRF 4.2.0 if required
 FILE_NAME_OLD='wrf_440'; WRF_FOLDER_OLD='WRF-4.4'; WPS_FOLDER_OLD='WPS-4.4'
 FILE_NAME='wrf_450'; WRF_FOLDER='WRF-4.5'; WPS_FOLDER='WPS-4.5'
 

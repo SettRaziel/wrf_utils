@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Migration-Script (currently in testing) from one WRF version to at max 4.2.0
+# Migration-Script from one WRF version to at max 4.2.0
 # The versions and folders need to be set manually at the moment
 
 # enable termination on error
