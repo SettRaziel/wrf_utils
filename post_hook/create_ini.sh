@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # define terminal colors
-. "${COLOR_PATH}"
+. ../libs/terminal_color.sh
 
 # script that generates a meta.ini for the minimal php gui
 # ${1}: the year for the model run
