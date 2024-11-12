@@ -10,6 +10,9 @@ fi
 
 DESTINATION_PATH="${1}"
 
+# save script path
+SCRIPT_PATH=$(pwd)
+
 # check if directory exists and change to it
 if ! [ -d "${DESTINATION_PATH}" ]; then
   cd "${DESTINATION_PATH}"
@@ -28,3 +31,6 @@ gem specific_install -l https://github.com/SettRaziel/wrf_forecast.git
 
 # update gems
 gem update
+
+# return to script path
+cd ${SCRIPT_PATH}
