@@ -22,5 +22,9 @@ software or libraries.
    changing the library dependencies for some libraries to arch linux packages
 
 ### From 4.4.0 to version 4.5.0
-* [wrf_migration.sh](./to_440/wrf_migration.sh): migration from WRF 4.4.0 version to 4.5.0 and 
+* [wrf_migration.sh](./to_450/wrf_migration.sh): migration from WRF 4.4.0 version to 4.5.0 and 
+   changing the library dependencies for some libraries to arch linux packages
+
+### From 4.5.0 to version 4.6.0
+* [wrf_migration.sh](./to_460/wrf_migration.sh): migration from WRF 4.5.0 version to 4.6.0 and 
    changing the library dependencies for some libraries to arch linux packages
