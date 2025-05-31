@@ -3,7 +3,7 @@
 # setting -e to abort on error
 set -e
 
-. ../libs/terminal_color.sh
+. "${HOME}/wrf_utils/cron_job/libs/terminal_color.sh"
 
 # parameter check
 if [ "$#" -ne 1 ]; then
@@ -16,4 +16,4 @@ MONTH=$(date -u +%m -d "yesterday")
 DAY=$(date -u +%d -d "yesterday")
 HOUR=${1}
 
-sh /home/raziel/wrf_archlinux/wrf_run/run_model.sh "-b" "wrf_450" "-y" "${YEAR}" "-m" "${MONTH}" "-d" "${DAY}" "-h" "${HOUR}" "-p" "96" "-r" "0p50"
+sh "${HOME}/wrf_archlinux/wrf_run/run_model.sh" "-b" "wrf_450" "-y" "${YEAR}" "-m" "${MONTH}" "-d" "${DAY}" "-h" "${HOUR}" "-p" "96" "-r" "0p50"
