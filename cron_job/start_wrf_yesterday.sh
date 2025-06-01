@@ -3,7 +3,7 @@
 # setting -e to abort on error
 set -e
 
-. "${HOME}/wrf_utils/cron_job/libs/terminal_color.sh"
+. "${HOME}/wrf_utils/libs/terminal_color.sh"
 
 # parameter check
 if [ "$#" -ne 1 ]; then
